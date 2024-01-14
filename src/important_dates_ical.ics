@@ -1,0 +1,761 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Date iCal//NONSGML kigkonsult.se iCalcreator 2.20.4//
+METHOD:PUBLISH
+X-WR-CALNAME;VALUE=TEXT:Important dates ical remote
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20231105T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RDATE:20241103T020000
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20240310T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RDATE:20250309T020000
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calendar.380.field_uw_imp_date_details_value.0.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20231204
+DTEND;VALUE=DATE:20240129
+SUMMARY:Class enrolment period
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.330.field_uw_imp_date_details_value.1.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240108
+DTEND;VALUE=DATE:20240109
+SUMMARY:Classes begin
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.331.field_uw_imp_date_details_value.2.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240108
+DTEND;VALUE=DATE:20240109
+SUMMARY:Co-operative work term begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.361.field_uw_imp_date_details_value.3.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240115
+DTEND;VALUE=DATE:20240116
+SUMMARY:Reserves removed
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.374.field_uw_imp_date_details_value.4.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240118
+DTEND;VALUE=DATE:20240119
+SUMMARY:Standing decisions and official grades are available in Quest
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.368.field_uw_imp_date_details_value.5.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240119
+DTEND;VALUE=DATE:20240120
+SUMMARY:Add Period ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.355.field_uw_imp_date_details_value.6.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240120
+DTEND;VALUE=DATE:20240121
+SUMMARY:Not Fees Arranged (NFA) holds applied
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.367.field_uw_imp_date_details_value.7.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240126
+DTEND;VALUE=DATE:20240127
+SUMMARY:Last day to drop a class from the academic record
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.357.field_uw_imp_date_details_value.8.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240126
+DTEND;VALUE=DATE:20240127
+SUMMARY:Tuition and fee refund deadline - 100%
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.371.field_uw_imp_date_details_value.9.field_uw_imp_dates_date.
+ 0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240127
+DTEND;VALUE=DATE:20240128
+SUMMARY:Drop with WD begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.378.field_uw_imp_date_details_value.10.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240129
+DTEND;VALUE=DATE:20240207
+SUMMARY:Course Selection Period
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.381.field_uw_imp_date_details_value.11.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240129
+DTEND;VALUE=DATE:20240325
+SUMMARY:Class drop with grade of Withdrawn\, no credit granted (WD)
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.390.field_uw_imp_date_details_value.12.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240131
+DTEND;VALUE=DATE:20240201
+SUMMARY:Last day to arrange tuition and fees
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.382.field_uw_imp_date_details_value.13.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240202
+DTEND;VALUE=DATE:20240203
+SUMMARY:Final examination schedules released
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.383.field_uw_imp_date_details_value.14.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240216
+DTEND;VALUE=DATE:20240217
+SUMMARY:Final examination relief requests due
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.384.field_uw_imp_date_details_value.15.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240216
+DTEND;VALUE=DATE:20240217
+SUMMARY:Requests for accommodations on religious grounds due
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.356.field_uw_imp_date_details_value.16.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240216
+DTEND;VALUE=DATE:20240217
+SUMMARY:Tuition and fee refund deadline - 50%
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.337.field_uw_imp_date_details_value.17.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240217
+DTEND;VALUE=DATE:20240226
+SUMMARY:Reading Week
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.342.field_uw_imp_date_details_value.18.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240219
+DTEND;VALUE=DATE:20240220
+SUMMARY:Family Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.391.field_uw_imp_date_details_value.19.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240301
+DTEND;VALUE=DATE:20240302
+SUMMARY:Application to Graduate due
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.362.field_uw_imp_date_details_value.20.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240321
+DTEND;VALUE=DATE:20240322
+SUMMARY:View next term's schedule and appointments
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.366.field_uw_imp_date_details_value.21.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240322
+DTEND;VALUE=DATE:20240323
+SUMMARY:Drop with WD ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.372.field_uw_imp_date_details_value.22.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240323
+DTEND;VALUE=DATE:20240324
+SUMMARY:Drop with WF begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.379.field_uw_imp_date_details_value.23.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240325
+DTEND;VALUE=DATE:20240327
+SUMMARY:Drop/Add Period begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.360.field_uw_imp_date_details_value.24.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240327
+DTEND;VALUE=DATE:20240328
+SUMMARY:Add Period begins (open enrolment)
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.346.field_uw_imp_date_details_value.25.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240329
+DTEND;VALUE=DATE:20240330
+SUMMARY:Good Friday
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.380.field_uw_imp_date_details_value.26.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240401
+DTEND;VALUE=DATE:20240527
+SUMMARY:Class enrolment period
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.336.field_uw_imp_date_details_value.27.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240408
+DTEND;VALUE=DATE:20240409
+SUMMARY:Make-up day for Good Friday
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.329.field_uw_imp_date_details_value.28.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240408
+DTEND;VALUE=DATE:20240409
+SUMMARY:Classes end
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.341.field_uw_imp_date_details_value.29.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240409
+DTEND;VALUE=DATE:20240411
+SUMMARY:Pre-examination study days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.370.field_uw_imp_date_details_value.30.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240410
+DTEND;VALUE=DATE:20240411
+SUMMARY:Drop with WF ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.335.field_uw_imp_date_details_value.31.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240411
+DTEND;VALUE=DATE:20240412
+SUMMARY:Final examinations begin
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.327.field_uw_imp_date_details_value.32.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240412
+DTEND;VALUE=DATE:20240414
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.376.field_uw_imp_date_details_value.33.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240414
+DTEND;VALUE=DATE:20240415
+SUMMARY:Final examination emergency days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.327.field_uw_imp_date_details_value.34.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240417
+DTEND;VALUE=DATE:20240418
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.327.field_uw_imp_date_details_value.35.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240420
+DTEND;VALUE=DATE:20240421
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.376.field_uw_imp_date_details_value.36.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240421
+DTEND;VALUE=DATE:20240422
+SUMMARY:Final examination emergency days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.358.field_uw_imp_date_details_value.37.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+SUMMARY:Tuition and fees due
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.359.field_uw_imp_date_details_value.38.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+SUMMARY:Opt out of optional/voluntary fees deadline
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.354.field_uw_imp_date_details_value.39.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240425
+DTEND;VALUE=DATE:20240426
+SUMMARY:Fees Arranged Extension fees begin
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.334.field_uw_imp_date_details_value.40.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240425
+DTEND;VALUE=DATE:20240426
+SUMMARY:Final examinations end
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.332.field_uw_imp_date_details_value.41.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240427
+SUMMARY:Co-operative work term ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.376.field_uw_imp_date_details_value.42.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240427
+SUMMARY:Final examination emergency days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.373.field_uw_imp_date_details_value.43.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240427
+DTEND;VALUE=DATE:20240428
+SUMMARY:Grades begin to appear in Quest
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.388.field_uw_imp_date_details_value.44.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240430
+DTEND;VALUE=DATE:20240501
+SUMMARY:Apply for Graduation
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.330.field_uw_imp_date_details_value.45.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240506
+DTEND;VALUE=DATE:20240507
+SUMMARY:Classes begin
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.331.field_uw_imp_date_details_value.46.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240506
+DTEND;VALUE=DATE:20240507
+SUMMARY:Co-operative work term begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.361.field_uw_imp_date_details_value.47.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240513
+DTEND;VALUE=DATE:20240514
+SUMMARY:Reserves removed
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.374.field_uw_imp_date_details_value.48.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240516
+DTEND;VALUE=DATE:20240517
+SUMMARY:Standing decisions and official grades are available in Quest
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.368.field_uw_imp_date_details_value.49.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240517
+DTEND;VALUE=DATE:20240518
+SUMMARY:Add Period ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.355.field_uw_imp_date_details_value.50.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240518
+DTEND;VALUE=DATE:20240519
+SUMMARY:Not Fees Arranged (NFA) holds applied
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.350.field_uw_imp_date_details_value.51.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240521
+SUMMARY:Victoria Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.340.field_uw_imp_date_details_value.52.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240521
+DTEND;VALUE=DATE:20240522
+SUMMARY:Make-up day for Victoria Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.367.field_uw_imp_date_details_value.53.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240527
+DTEND;VALUE=DATE:20240528
+SUMMARY:Last day to drop a class from the academic record
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.381.field_uw_imp_date_details_value.54.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240527
+DTEND;VALUE=DATE:20240715
+SUMMARY:Class drop with grade of Withdrawn\, no credit granted (WD)
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.357.field_uw_imp_date_details_value.55.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240527
+DTEND;VALUE=DATE:20240528
+SUMMARY:Tuition and fee refund deadline - 100%
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.371.field_uw_imp_date_details_value.56.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240528
+DTEND;VALUE=DATE:20240529
+SUMMARY:Drop with WD begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.351.field_uw_imp_date_details_value.57.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240611
+DTEND;VALUE=DATE:20240616
+SUMMARY:Convocation - spring 2024
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.356.field_uw_imp_date_details_value.58.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240622
+SUMMARY:Tuition and fee refund deadline - 50%
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.390.field_uw_imp_date_details_value.59.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240630
+DTEND;VALUE=DATE:20240701
+SUMMARY:Last day to arrange tuition and fees
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.343.field_uw_imp_date_details_value.60.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240701
+DTEND;VALUE=DATE:20240702
+SUMMARY:Canada Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.366.field_uw_imp_date_details_value.61.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240716
+DTEND;VALUE=DATE:20240717
+SUMMARY:Drop with WD ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.372.field_uw_imp_date_details_value.62.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240717
+DTEND;VALUE=DATE:20240718
+SUMMARY:Drop with WF begins
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.338.field_uw_imp_date_details_value.63.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240729
+DTEND;VALUE=DATE:20240730
+SUMMARY:Make-up day for Canada Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.329.field_uw_imp_date_details_value.64.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240730
+DTEND;VALUE=DATE:20240731
+SUMMARY:Classes end
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.339.field_uw_imp_date_details_value.65.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240730
+DTEND;VALUE=DATE:20240731
+SUMMARY:Make-up day for May 21
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.341.field_uw_imp_date_details_value.66.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240731
+DTEND;VALUE=DATE:20240802
+SUMMARY:Pre-examination study days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.370.field_uw_imp_date_details_value.67.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240802
+SUMMARY:Drop with WF ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.335.field_uw_imp_date_details_value.68.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240802
+DTEND;VALUE=DATE:20240803
+SUMMARY:Final examinations begin
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.348.field_uw_imp_date_details_value.69.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240803
+DTEND;VALUE=DATE:20240804
+SUMMARY:No final examinations scheduled
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.344.field_uw_imp_date_details_value.70.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240805
+DTEND;VALUE=DATE:20240806
+SUMMARY:Civic Day
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.326.field_uw_imp_date_details_value.71.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240809
+DTEND;VALUE=DATE:20240811
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.377.field_uw_imp_date_details_value.72.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240811
+DTEND;VALUE=DATE:20240812
+SUMMARY:Final examination emergency days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.326.field_uw_imp_date_details_value.73.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240814
+DTEND;VALUE=DATE:20240815
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.392.field_uw_imp_date_details_value.74.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240815
+DTEND;VALUE=DATE:20240816
+SUMMARY:Application to Graduate due
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.334.field_uw_imp_date_details_value.75.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240817
+SUMMARY:Final examinations end
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.377.field_uw_imp_date_details_value.76.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240818
+SUMMARY:Final examination emergency days
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.326.field_uw_imp_date_details_value.77.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240818
+SUMMARY:In-person exam days for online courses
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.373.field_uw_imp_date_details_value.78.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240818
+DTEND;VALUE=DATE:20240819
+SUMMARY:Grades begin to appear in Quest
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.332.field_uw_imp_date_details_value.79.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240823
+DTEND;VALUE=DATE:20240824
+SUMMARY:Co-operative work term ends
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.387.field_uw_imp_date_details_value.80.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240831
+DTEND;VALUE=DATE:20240901
+SUMMARY:Apply for Graduation
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar.374.field_uw_imp_date_details_value.81.field_uw_imp_dates_date
+ .0@uwaterloo.ca/registrar
+DTSTAMP:20240107T145429Z
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240913
+SUMMARY:Standing decisions and official grades are available in Quest
+URL;TYPE=URI:https://uwaterloo.ca/registrar/
+END:VEVENT
+END:VCALENDAR

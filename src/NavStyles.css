@@ -1,0 +1,36 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background-color: #fef1e1;
+}
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar li {
+	list-style: none;
+	position: relative;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+#navbar li:hover {
+	list-style: none;
+	padding: 1em;
+	position: relative;
+	cursor: pointer;
+	background-color: #ffc887;
+	border-radius: 20px;
+}
+
