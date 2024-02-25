@@ -23,6 +23,8 @@ import { useNavigate } from "react-router-dom";
 const defaultTheme = createTheme();
 const materialPurple = "#ab47bc";
 const materialPurpleDark = "#5E1675";
+const materialPurpleLight = "#ce93d8";
+const lightBeige = "#fffff0";
 const inputStyles = {
     '&:hover fieldset': {
       borderColor: materialPurple, // Change hover highlight color
@@ -61,9 +63,9 @@ export default function SignUp() {
 		<Box
 		sx={{
 			height: '100vh', // Set the height as needed
-			background: 'linear-gradient(to right, #ce93d8 55%, #fffff0 50%)',
+			background: 'linear-gradient(to right, materialPurpleLight 55%, lightBeige 50%)',
 		  }}>
-		<Container component="main" maxWidth="xs" style={{backgroundColor:'#fffff0', marginTop: '5%', marginLeft:'60%'}}>
+		<Container component="main" maxWidth="xs" style={{backgroundColor:lightBeige, marginTop: '5%', marginLeft:'60%'}}>
 			<CssBaseline/>
 			<Box
 				sx={{
