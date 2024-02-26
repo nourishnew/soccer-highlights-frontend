@@ -52,7 +52,7 @@ export default function Login() {
 			{currentUser && currentUser.email}
 			<Box
 		sx={{
-			height: '100vh', // Set the height as needed
+			height: '100vh',
 			background: 'linear-gradient(to right, materialPurpleLight 55%, lightBeige 50%)',
 		  }}>
 		<Container component="main" maxWidth="xs" style={{backgroundColor: lightBeige, marginTop: '5%', marginLeft:'60%'}}>
