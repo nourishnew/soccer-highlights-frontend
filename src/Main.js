@@ -11,7 +11,7 @@ import FileUploadIcon from '@mui/icons-material/FileUpload';
 import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import soccerPixelGrid from './soccer_pixel.jpeg'; 
+// import soccerPixelGrid from './soccer_pixel.jpeg'; 
 
 
 function Main() {
@@ -19,7 +19,7 @@ function Main() {
 	const [progress, setProgress] = useState(0);
 	const [uploadAlmostDone, SetUploadAlmostDone] = useState(false);
 	const [uploadDone, setUploadDone] = useState(false);
-	const [videoUrl, setVideoUrl] = useState(''); // Add videoUrl state
+	const [videos, setVideos] = useState([]); // Add videoUrl state
 	const handleFileChange = (event) => {
 		setSelectedFile(event.target.files[0]);
 	};
@@ -75,22 +75,22 @@ function Main() {
 
 	const fetchVideoUrl = async () => {
 		try {
-			const response = await axios.get('http://localhost:8080/get-signed-url');
-			const signedUrl = response.data.signedUrl;
-			console.debug("SIGNED URL: " + signedUrl)
-			setVideoUrl(signedUrl);
+			const response = await axios.get('http://localhost:8000/get-signed-url');
+			const urls = response.data;
+			console.debug("URLs: " + urls);
+			setVideos(urls);
 		} catch (error) {
 			console.error('Error fetching signed URL:', error);
 		}
 	};
 
-	const handlePlayVideo = () => {
-		if (videoUrl) {
-			window.open(videoUrl, '_blank');
-		} else {
-			console.error('Video URL is not available.');
-		}
-	};
+	// const handlePlayVideo = () => {
+	// 	if (videoUrl) {
+	// 		window.open(videoUrl, '_blank');
+	// 	} else {
+	// 		console.error('Video URL is not available.');
+	// 	}
+	// };
 
 	const appBackground = {
 		// backgroundImage: `url(${soccerPixelGrid})`,
@@ -142,7 +142,10 @@ function Main() {
 			{/* <Button onClick={handlePlayVideo} variant="contained" style={{ margin: '2em' }}>
 				Play Video
 			</Button> */}
-			<ReactPlayer url={videoUrl} playing controls />
+			{ videos.map(video => <ReactPlayer url={video} playing={false} controls/>)
+
+			}
+			{/* <ReactPlayer url={videoUrl} playing controls /> */}
 			{/* <ReactPlayer url='https://www.youtube.com/watch?v=s2U17evRAmM' /> */}
 		</div>
 	);
