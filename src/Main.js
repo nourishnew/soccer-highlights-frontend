@@ -75,6 +75,7 @@ function Main() {
 
 	const fetchVideoUrl = async () => {
 		try {
+			setVideos([]);
 			const response = await axios.get('http://localhost:8000/get-signed-url');
 			const urls = response.data;
 			console.debug("URLs: " + urls);
