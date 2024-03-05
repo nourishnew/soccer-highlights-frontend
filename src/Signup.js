@@ -9,9 +9,10 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import Typography from "@mui/material/Typography";
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
@@ -20,6 +21,23 @@ import { useNavigate } from "react-router-dom";
 // TODO remove, this demo shouldn't need to reset the theme.
 
 const defaultTheme = createTheme();
+const materialPurple = "#ab47bc";
+const materialPurpleDark = "#5E1675";
+const materialPurpleLight = "#ce93d8";
+const lightBeige = "#fffff0";
+const inputStyles = {
+    '&:hover fieldset': {
+      borderColor: materialPurple, // Change hover highlight color
+	},
+    '&.Mui-focused fieldset': {
+      borderColor: materialPurple, // Change focused highlight color
+    },
+  };
+  const labelStyles = {
+    '&.Mui-focused': {
+      color: materialPurple, // Change label color when focused
+    },
+  };
 
 export default function SignUp() {
 	const { signup, currentUser } = useAuth();
@@ -42,8 +60,13 @@ export default function SignUp() {
 	};
 
 	return (
-		<Container component="main" maxWidth="xs">
-			<CssBaseline />
+		<Box
+		sx={{
+			height: '100vh', 
+			background: 'linear-gradient(to right, materialPurpleLight 55%, lightBeige 50%)',
+		  }}>
+		<Container component="main" maxWidth="xs" style={{backgroundColor:lightBeige, marginTop: '5%', marginLeft:'60%'}}>
+			<CssBaseline/>
 			<Box
 				sx={{
 					marginTop: 8,
@@ -51,23 +74,40 @@ export default function SignUp() {
 					flexDirection: "column",
 					alignItems: "center",
 				}}>
-				<Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
-					<LockOutlinedIcon />
-				</Avatar>
-				<Typography component="h1" variant="h5">
-					Sign up
+				<Grid item sx={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>
+					<Avatar sx={{ m: 1, bgcolor: materialPurple }}>
+						<SportsSoccerIcon style={{fontSize:'41px'}}/>
+					</Avatar>
+					<div style={{ display: 'inline-block', marginLeft: '0px', fontSize:40, fontFamily:'monospace', color: materialPurple }}>Reeltime</div>
+				</Grid>
+				<Typography component="h1" variant="h5" style={{marginTop:'50px', marginBottom:'10px', fontWeight:'bold'}}>
+					Sign up to create an account
 				</Typography>
 				<Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
-					<Grid container spacing={2}>
+					<Grid container spacing={2} style={{marginBottom:'20px'}}>
+						<Grid container justifyContent="center">
+							<Grid item>
+								<div style={{ display: 'inline-block', marginRight: '3px', marginBottom: '10px'}}>Already have an account?</div>
+								<Typography component="div" style={{ display: 'inline-block' }}>
+									<Link href="/login" variant="body2" style={{ textDecoration: 'none', color: materialPurple, fontSize: 16 }}>
+										Sign in
+									</Link>
+								</Typography>
+							</Grid>
+						</Grid>
 						<Grid item xs={12} sm={6}>
 							<TextField
 								autoComplete="given-name"
 								name="firstName"
+								InputProps={{ style: inputStyles }}
+								InputLabelProps={{ style: labelStyles }}
 								required
 								fullWidth
 								id="firstName"
 								label="First Name"
 								autoFocus
+								variant='outlined'
+								
 							/>
 						</Grid>
 						<Grid item xs={12} sm={6}>
@@ -101,10 +141,14 @@ export default function SignUp() {
 								autoComplete="new-password"
 							/>
 						</Grid>
-						<Grid item xs={12}>
+						<Grid item xs={12} style={{marginTop:"-20px"}}>
 							<FormControlLabel
-								control={<Checkbox value="allowExtraEmails" color="primary" />}
-								label="I want to receive inspiration, marketing promotions and updates via email."
+								control={<Checkbox value="allowExtraEmails" color="secondary" style={{fontSize:10}}/>}
+								label={
+									<Typography variant="body1" style={{ fontSize:12, marginTop:'11px', marginLeft:'-5px'}}>
+									  I would like to receive marketing promotions and updates via email
+									</Typography>
+								}
 							/>
 						</Grid>
 					</Grid>
@@ -112,18 +156,23 @@ export default function SignUp() {
 						type="submit"
 						fullWidth
 						variant="contained"
-						sx={{ mt: 3, mb: 2 }}>
+						sx={{
+							mt: 5,
+							mb: 2,
+							backgroundColor: materialPurple,
+							boxShadow: 'none',
+							'&:hover': {
+							backgroundColor: materialPurpleDark,
+							boxShadow: 'none',
+							},
+							fontSize: 16
+						}}
+						>
 						Sign Up
 					</Button>
-					<Grid container justifyContent="flex-end">
-						<Grid item>
-							<Link href="/login" variant="body2">
-								Already have an account? Sign in
-							</Link>
-						</Grid>
-					</Grid>
 				</Box>
 			</Box>
 		</Container>
+		</Box>
 	);
 }
