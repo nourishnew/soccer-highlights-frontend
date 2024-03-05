@@ -1,0 +1,14 @@
+.nav2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	margin-top: 10px;
+	background-color: #fef1f0;
+}
+
+#navbar2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

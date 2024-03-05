@@ -12,12 +12,13 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import { useAuth } from "./contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
+import Nav from "./Nav";
 // TODO remove, this demo shouldn't need to reset the theme.
 
 const defaultTheme = createTheme();
@@ -26,18 +27,18 @@ const materialPurpleDark = "#5E1675";
 const materialPurpleLight = "#ce93d8";
 const lightBeige = "#fffff0";
 const inputStyles = {
-    '&:hover fieldset': {
-      borderColor: materialPurple, // Change hover highlight color
+	"&:hover fieldset": {
+		borderColor: materialPurple, // Change hover highlight color
 	},
-    '&.Mui-focused fieldset': {
-      borderColor: materialPurple, // Change focused highlight color
-    },
-  };
-  const labelStyles = {
-    '&.Mui-focused': {
-      color: materialPurple, // Change label color when focused
-    },
-  };
+	"&.Mui-focused fieldset": {
+		borderColor: materialPurple, // Change focused highlight color
+	},
+};
+const labelStyles = {
+	"&.Mui-focused": {
+		color: materialPurple, // Change label color when focused
+	},
+};
 
 export default function SignUp() {
 	const { signup, currentUser } = useAuth();
@@ -60,88 +61,113 @@ export default function SignUp() {
 	};
 
 	return (
-		<Box
-		sx={{
-			height: '100vh', 
-			background: 'linear-gradient(to right, materialPurpleLight 55%, lightBeige 50%)',
-		  }}>
-		<Container component="main" maxWidth="xs" style={{backgroundColor:lightBeige, marginTop: '5%', marginLeft:'60%'}}>
-			<CssBaseline/>
+		<div>
+			<Nav />
 			<Box
 				sx={{
-					marginTop: 8,
-					display: "flex",
-					flexDirection: "column",
-					alignItems: "center",
+					height: "100vh",
+					backgroundColor: "#fef1f0",
 				}}>
-				<Grid item sx={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>
-					<Avatar sx={{ m: 1, bgcolor: materialPurple }}>
-						<SportsSoccerIcon style={{fontSize:'41px'}}/>
-					</Avatar>
-					<div style={{ display: 'inline-block', marginLeft: '0px', fontSize:40, fontFamily:'monospace', color: materialPurple }}>Reeltime</div>
-				</Grid>
-				<Typography component="h1" variant="h5" style={{marginTop:'50px', marginBottom:'10px', fontWeight:'bold'}}>
-					Sign up to create an account
-				</Typography>
-				<Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
-					<Grid container spacing={2} style={{marginBottom:'20px'}}>
-						<Grid container justifyContent="center">
-							<Grid item>
-								<div style={{ display: 'inline-block', marginRight: '3px', marginBottom: '10px'}}>Already have an account?</div>
-								<Typography component="div" style={{ display: 'inline-block' }}>
-									<Link href="/login" variant="body2" style={{ textDecoration: 'none', color: materialPurple, fontSize: 16 }}>
-										Sign in
-									</Link>
-								</Typography>
-							</Grid>
+				<Container component="main" maxWidth="xs" style={{ padding: "4em" }}>
+					<CssBaseline />
+					<Box
+						sx={{
+							display: "flex",
+							flexDirection: "column",
+							alignItems: "center",
+						}}>
+						<Grid
+							item
+							sx={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+							<div
+								style={{
+									display: "inline-block",
+									marginLeft: "0px",
+									fontSize: "30px",
+									fontFamily: "monospace",
+									color: "#180046",
+								}}>
+								Get Started for free
+							</div>
 						</Grid>
-						<Grid item xs={12} sm={6}>
-							<TextField
-								autoComplete="given-name"
-								name="firstName"
-								InputProps={{ style: inputStyles }}
-								InputLabelProps={{ style: labelStyles }}
-								required
-								fullWidth
-								id="firstName"
-								label="First Name"
-								autoFocus
-								variant='outlined'
-								
-							/>
-						</Grid>
-						<Grid item xs={12} sm={6}>
-							<TextField
-								required
-								fullWidth
-								id="lastName"
-								label="Last Name"
-								name="lastName"
-								autoComplete="family-name"
-							/>
-						</Grid>
-						<Grid item xs={12}>
-							<TextField
-								required
-								fullWidth
-								id="email"
-								label="Email Address"
-								name="email"
-								autoComplete="email"
-							/>
-						</Grid>
-						<Grid item xs={12}>
-							<TextField
-								required
-								fullWidth
-								name="password"
-								label="Password"
-								type="password"
-								id="password"
-								autoComplete="new-password"
-							/>
-						</Grid>
-						{/* <Grid item xs={12} style={{marginTop:"-20px"}}>
+						<Box
+							component="form"
+							noValidate
+							onSubmit={handleSubmit}
+							sx={{ mt: 3 }}>
+							<Grid container spacing={2} style={{ marginBottom: "20px" }}>
+								<Grid container justifyContent="center">
+									<Grid item>
+										<div
+											style={{
+												display: "inline-block",
+												marginRight: "3px",
+												marginBottom: "10px",
+											}}>
+											Already have an account?
+										</div>
+										<Typography
+											component="div"
+											style={{ display: "inline-block" }}>
+											<Link
+												href="/login"
+												variant="body2"
+												style={{
+													textDecoration: "none",
+													color: "#180046",
+													fontSize: 16,
+												}}>
+												Sign in
+											</Link>
+										</Typography>
+									</Grid>
+								</Grid>
+								<Grid item xs={12} sm={6}>
+									<TextField
+										autoComplete="given-name"
+										name="firstName"
+										InputProps={{ style: inputStyles }}
+										InputLabelProps={{ style: labelStyles }}
+										required
+										fullWidth
+										id="firstName"
+										label="First Name"
+										autoFocus
+										variant="outlined"
+									/>
+								</Grid>
+								<Grid item xs={12} sm={6}>
+									<TextField
+										required
+										fullWidth
+										id="lastName"
+										label="Last Name"
+										name="lastName"
+										autoComplete="family-name"
+									/>
+								</Grid>
+								<Grid item xs={12}>
+									<TextField
+										required
+										fullWidth
+										id="email"
+										label="Email Address"
+										name="email"
+										autoComplete="email"
+									/>
+								</Grid>
+								<Grid item xs={12}>
+									<TextField
+										required
+										fullWidth
+										name="password"
+										label="Password"
+										type="password"
+										id="password"
+										autoComplete="new-password"
+									/>
+								</Grid>
+								{/* <Grid item xs={12} style={{marginTop:"-20px"}}>
 							<FormControlLabel
 								control={<Checkbox value="allowExtraEmails" color="secondary" style={{fontSize:10}}/>}
 								label={
@@ -151,28 +177,28 @@ export default function SignUp() {
 								}
 							/>
 						</Grid> */}
-					</Grid>
-					<Button
-						type="submit"
-						fullWidth
-						variant="contained"
-						sx={{
-							mt: 5,
-							mb: 2,
-							backgroundColor: materialPurple,
-							boxShadow: 'none',
-							'&:hover': {
-							backgroundColor: materialPurpleDark,
-							boxShadow: 'none',
-							},
-							fontSize: 16
-						}}
-						>
-						Sign Up
-					</Button>
-				</Box>
+							</Grid>
+							<Button
+								type="submit"
+								fullWidth
+								variant="contained"
+								sx={{
+									mt: 5,
+									mb: 2,
+									backgroundColor: "#180046",
+									boxShadow: "none",
+									"&:hover": {
+										backgroundColor: "#181046",
+										boxShadow: "none",
+									},
+									fontSize: 16,
+								}}>
+								Sign Up
+							</Button>
+						</Box>
+					</Box>
+				</Container>
 			</Box>
-		</Container>
-		</Box>
+		</div>
 	);
 }

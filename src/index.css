@@ -2,11 +2,10 @@ body {
 	/* background-color: #fef1e1; */
 	/* background-color:'white'; */
 	height: 100vh; /* Set the height as needed */
-	background: linear-gradient(to right, #ce93d8 55%, #fffff0 50%);
 	margin: 0;
-	font-family: monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid SFline-ans", "Helvetica Neue",
-		sans-serif;
+	font-family: monospace, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid SFline-ans",
+		"Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -15,14 +14,6 @@ html {
 	/* background-color: #fef1e1; */
 	/* background-color:'white'; */
 	height: 100vh; /* Set the height as needed */
-	background: linear-gradient(to right, #ce93d8 55%, #fffff0 50%);
-}
-
-#root {
-	/* background-color: #fef1e1; */
-	/* background-color:'white'; */
-	height: 100vh; /* Set the height as needed */
-	background: linear-gradient(to right, #ce93d8 55%, #fffff0 50%);
 }
 
 code {
