@@ -141,7 +141,7 @@ export default function SignUp() {
 								autoComplete="new-password"
 							/>
 						</Grid>
-						{/* <Grid item xs={12} style={{marginTop:"-20px"}}>
+						<Grid item xs={12} style={{marginTop:"-20px"}}>
 							<FormControlLabel
 								control={<Checkbox value="allowExtraEmails" color="secondary" style={{fontSize:10}}/>}
 								label={
@@ -150,7 +150,7 @@ export default function SignUp() {
 									</Typography>
 								}
 							/>
-						</Grid> */}
+						</Grid>
 					</Grid>
 					<Button
 						type="submit"
