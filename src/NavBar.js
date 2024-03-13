@@ -31,26 +31,24 @@ export default function NavBar() {
 						class="ccustom"
 						fill="#FF7917"></path>{" "}
 				</svg>
-				<p
-					style={{
+				    <p style={{
 						color: "#180046",
 						fontSize: "30px",
 						fontWeight: "bold",
 						fontFamily: "Jost, sans-serif",
 					}}>
 					ReelTime
-				</p>
+				    </p>
 			</div>
+
 			<div style={{ width: "35%" }}>
 				<ul id="navbar">
 					<button className="button-74">
 						<Link
 							style={{
 								textDecoration: "none",
-								color: "black",
-								fontWeight: "bold",
 							}}>
-							<li>Pricing</li>
+							<li className="nunito-font">Pricing</li>
 						</Link>
 					</button>
 					<button className="button-74">
@@ -58,10 +56,8 @@ export default function NavBar() {
 							href="/signup"
 							style={{
 								textDecoration: "none",
-								color: "black",
-								fontWeight: "bold",
 							}}>
-							<li>Sign up</li>
+							<li className="nunito-font">Sign up</li>
 						</Link>
 					</button>
 
@@ -70,10 +66,8 @@ export default function NavBar() {
 							href="/login"
 							style={{
 								textDecoration: "none",
-								color: "black",
-								fontWeight: "bold",
 							}}>
-							<li>Log in</li>
+							<li className="nunito-font">Log in</li>
 						</Link>
 					</button>
 				</ul>

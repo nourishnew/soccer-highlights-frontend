@@ -9,6 +9,47 @@ html {
 	height: 40vmin;
 	pointer-events: none;
 }
+.fileUpload {
+	background: #180046;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 1.25em auto; /*20px/16px 0*/
+	overflow: hidden;
+	padding: 0.875em; /*14px/16px*/
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+}
+.fileUpload:hover,
+.fileUpload:active,
+.fileUpload:focus {
+	background: #180046;
+	cursor: pointer;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 148px;
+	height: 46px;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	position: fixed;
+	right: 100%;
+	bottom: 100%;
+}
 .dragDropClass {
 	border-style: solid;
 	background-color: #ffffff;
@@ -114,7 +155,8 @@ html {
 	font-optical-sizing: auto;
 	font-weight: bold;
 	font-style: bold;
-	font-size: 20px;
+	font-size: 25px;
+	color: #180046;
 }
 
 /* CSS */

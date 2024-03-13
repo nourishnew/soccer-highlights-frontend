@@ -38,14 +38,9 @@ export default function Login() {
 		const data = new FormData(event.currentTarget);
 		try {
 			await login(data.get("email"), data.get("password"));
-			console.log("navigate to main");
 		} catch {
-			setError("Failed to sign up");
+			setError("Failed to sign in. Check your email address and password");
 		}
-		console.log({
-			email: data.get("email"),
-			password: data.get("password"),
-		});
 	};
 
 	return (
@@ -65,16 +60,7 @@ export default function Login() {
 							alignItems: "center",
 						}}>
 						<Grid item sx={{ display: "flex", alignItems: "center" }}>
-							<div
-								style={{
-									display: "inline-block",
-									marginLeft: "0px",
-									fontSize: "30px",
-									fontFamily: "monospace",
-									color: "#180046",
-								}}>
-								Sign in.
-							</div>
+							<div className="nunito-font">Sign in.</div>
 						</Grid>
 						<Box
 							component="form"
@@ -102,6 +88,7 @@ export default function Login() {
 													textDecoration: "none",
 													color: "#180046",
 													fontSize: 16,
+													fontWeight: "bold",
 												}}>
 												Sign up
 											</Link>
@@ -169,6 +156,7 @@ export default function Login() {
 								}}>
 								Sign In
 							</Button>
+							{error && <p>{ error}</p>}
 						</Box>
 					</Box>
 				</Container>

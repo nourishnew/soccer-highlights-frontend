@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
 import main_img from "./soccer_image.png";
-import { Button } from "@mui/material";
 
 export default function Home() {
 	return (
@@ -24,8 +23,8 @@ export default function Home() {
 						highlights video...
 					</p>
 					<p className="nunito-font">
-						Just upload the broadcast video and get action packed highlights
-						with goals,shots, referee scenes, VAR scenes using AI.
+						Just upload the broadcast video and get action packed highlight clips
+						of goals, shots, referee scenes, VAR scenes using our powerful AI model.
 					</p>
 					<button className="button-64">
 						<span className="text">Try for free</span>

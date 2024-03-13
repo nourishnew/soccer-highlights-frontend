@@ -1,8 +1,19 @@
 import React from "react";
 import Link from "@mui/material/Link";
 import "./NavStyles2.css";
+import { useAuth } from "./contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function Nav() {
+	const { currentUser, logOut } = useAuth();
+	let navigate = useNavigate();
+
+	async function handleSignOut() {
+		await logOut();
+		navigate("/home");
+	}
+
 	return (
 		<Link
 			href="/home"
@@ -47,6 +58,23 @@ export default function Nav() {
 						ReelTime
 					</p>
 				</div>
+				{currentUser && (
+					<div style={{ display: "flex", flexBasis: "row", color: "#180046" }}>
+						<p style={{ margin: "auto",fontWeight:"bold" }}>{currentUser.email}</p>
+						<Button
+							onClick={handleSignOut}
+							variant="contained"
+							style={{
+								margin: "2em",
+								background: "#ff7916",
+								color: "#180046",
+								fontWeight: "bold",
+								borderRadius: "20px",
+							}}>
+							Sign out
+						</Button>
+					</div>
+				)}
 			</nav>
 		</Link>
 	);

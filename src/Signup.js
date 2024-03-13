@@ -21,11 +21,8 @@ import { useNavigate } from "react-router-dom";
 import Nav from "./Nav";
 // TODO remove, this demo shouldn't need to reset the theme.
 
-const defaultTheme = createTheme();
 const materialPurple = "#ab47bc";
-const materialPurpleDark = "#5E1675";
-const materialPurpleLight = "#ce93d8";
-const lightBeige = "#fffff0";
+
 const inputStyles = {
 	"&:hover fieldset": {
 		borderColor: materialPurple, // Change hover highlight color
@@ -46,18 +43,17 @@ export default function SignUp() {
 
 	let navigate = useNavigate();
 	const handleSubmit = async (event) => {
+		setError();
 		event.preventDefault();
 		const data = new FormData(event.currentTarget);
 		try {
 			await signup(data.get("email"), data.get("password"));
 			navigate("/");
 		} catch {
-			setError("Failed to sign up");
+			setError(
+				"Failed to sign up. Type a valid email address. The password should be more than 6 characters"
+			);
 		}
-		console.log({
-			email: data.get("email"),
-			password: data.get("password"),
-		});
 	};
 
 	return (
@@ -68,7 +64,7 @@ export default function SignUp() {
 					height: "100vh",
 					backgroundColor: "#fef1f0",
 				}}>
-				<Container component="main" maxWidth="xs" style={{ padding: "4em" }}>
+				<Container component="main" maxWidth="sm" style={{ padding: "4em" }}>
 					<CssBaseline />
 					<Box
 						sx={{
@@ -79,16 +75,7 @@ export default function SignUp() {
 						<Grid
 							item
 							sx={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
-							<div
-								style={{
-									display: "inline-block",
-									marginLeft: "0px",
-									fontSize: "30px",
-									fontFamily: "monospace",
-									color: "#180046",
-								}}>
-								Get Started for free
-							</div>
+							<div className="nunito-font">Get Started for free</div>
 						</Grid>
 						<Box
 							component="form"
@@ -116,6 +103,7 @@ export default function SignUp() {
 													textDecoration: "none",
 													color: "#180046",
 													fontSize: 16,
+													fontWeight: "bold",
 												}}>
 												Sign in
 											</Link>
@@ -167,16 +155,6 @@ export default function SignUp() {
 										autoComplete="new-password"
 									/>
 								</Grid>
-								{/* <Grid item xs={12} style={{marginTop:"-20px"}}>
-							<FormControlLabel
-								control={<Checkbox value="allowExtraEmails" color="secondary" style={{fontSize:10}}/>}
-								label={
-									<Typography variant="body1" style={{ fontSize:12, marginTop:'11px', marginLeft:'-5px'}}>
-									  I would like to receive marketing promotions and updates via email
-									</Typography>
-								}
-							/>
-						</Grid> */}
 							</Grid>
 							<Button
 								type="submit"
@@ -195,6 +173,7 @@ export default function SignUp() {
 								}}>
 								Sign Up
 							</Button>
+							{error && <p style={{ color: "red" }}>{error}</p>}
 						</Box>
 					</Box>
 				</Container>
